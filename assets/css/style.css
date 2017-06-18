@@ -82,12 +82,3 @@ div {
   border-width: 5px;
   border-color: #4aaaa5;
 }
-
-.footer2 {
-	position: absolute;
-	display: inline-block;
-	right: 0;
-	bottom: 10px;
-	left: 0;
-	background-color: #4aaaa5;
-}
