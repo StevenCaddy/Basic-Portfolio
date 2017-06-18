@@ -1,0 +1,26 @@
+header {
+	position: fixed;
+	background: #4aaaa5;
+	float: left;
+	padding: 20px;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin-left: 120px;
+	margin-top: 50px;
+}
+
+.topnav {
+	background-color: #ffffff;
+	border-color: #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	float: right;
+	margin-top: 50px;
+	margin-right: 120px;
+	padding: 20px;
+}
+
+.topnav a {
+	text-align: center;
+	text-decoration: none;
+	color: gray;
+}
