@@ -1,26 +1,81 @@
 header {
-	position: fixed;
+	position: relative;
 	background: #4aaaa5;
 	float: left;
+	height: 30px;
+	width: 220px;
 	padding: 20px;
 	color: white;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	margin-left: 120px;
+	margin-left: 90px;
 	margin-top: 50px;
+	font-size: 25px;
+	margin-bottom: 20px;
+	z-index: 1;
 }
 
 .topnav {
+	height: 30px;
+	width: 660px;
 	background-color: #ffffff;
 	border-color: #cccccc;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	float: right;
 	margin-top: 50px;
-	margin-right: 120px;
 	padding: 20px;
+	font-size: 25px;
 }
 
 .topnav a {
+	position: relative;
 	text-align: center;
 	text-decoration: none;
 	color: gray;
+	padding: 20px;
+	border-right: solid;
+	border-color: gray;
+	z-index: 1;
+}
+
+#contact {
+	border-right: none;
+}
+
+h1 {
+	color: #4aaaa5;
+	text-align: left;
+	display: inline-block;
+	margin-left: 95px;
+}
+
+p {
+	text-align: left;
+	margin-left: 95px;
+	margin-right: 250px;
+	font-size: 18px;
+}
+
+body {
+	margin: 20px;
+	min-height: 100%;
+}
+
+section {
+	clear: both;
+	
+}
+
+div {
+
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #666666;
+  text-align: center;
+  font-color: gray;
 }
