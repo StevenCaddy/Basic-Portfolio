@@ -1,5 +1,5 @@
 header {
-	position: relative;
+	position: fixed;
 	background: #4aaaa5;
 	float: left;
 	height: 30px;
@@ -15,30 +15,34 @@ header {
 }
 
 .topnav {
-	height: 30px;
-	width: 660px;
-	background-color: #ffffff;
-	border-color: #cccccc;
-	font-family: 'Georgia', Times, Times New Roman, serif;
 	float: right;
 	margin-top: 50px;
-	padding: 20px;
-	font-size: 25px;
 }
 
-.topnav a {
-	position: relative;
-	text-align: center;
-	text-decoration: none;
-	color: gray;
+#index {
+	width: 33.3%;
 	padding: 20px;
+	text-decoration: none;
 	border-right: solid;
-	border-color: gray;
-	z-index: 1;
+	border-color: #cccccc;
+	text-align: center;
+}
+
+#portfolio {
+	width: 33.3%;
+	padding: 20px;
+	text-decoration: none;
+	text-align: center;
+	border-right: solid;
+	border-color: #cccccc;
 }
 
 #contact {
 	border-right: none;
+	width: 33.3%;
+	text-decoration: none;
+	padding: 20px;
+	text-align: center;
 }
 
 h1 {
@@ -62,15 +66,19 @@ body {
 
 section {
 	clear: both;
+	background-color: darkgrey;
+	width: 650 	px;
+	align-content: center;
 	
 }
 
 div {
-
+	width: 600px;
+	height: 50px;
 }
 
 .footer1 {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
